@@ -20,6 +20,9 @@ n2 = Newspaper("The New York Times")
 
 # TODO: use type() to inspect the object type
 
+if __name__ == "__main__":
+    print(type(b1) is type(b2))
+    print(isinstance(b1, Book))
 
 # TODO: compare two types together
 
